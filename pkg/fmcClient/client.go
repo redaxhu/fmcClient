@@ -56,7 +56,7 @@ func (c *Client) trustcert(cert []byte) error {
 	if !ok {
 		return fmt.Errorf("failed to parse certificate")
 	}
-	tlsConf := &tls.Config{RootCAs: roots}
+	tlsConf := &tls.Config{RootCAs: roots, InsecureSkipVerify: true}
 	tr := &http.Transport{TLSClientConfig: tlsConf}
 	c.HTTPClient.Transport = tr
 
