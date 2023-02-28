@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/kubernetli/fmcClient/pkg/fmcClient"
+	"github.com/redaxhu/fmcClient/pkg/fmcClient"
 )
 
 func main() {
