@@ -1,3 +1,3 @@
-module github.com/kubernetli/fmcClient/pkg/fmcClient
+module github.com/redaxhu/fmcClient/pkg/fmcClient
 
 go 1.14
